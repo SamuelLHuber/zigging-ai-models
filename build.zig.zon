@@ -73,6 +73,9 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
+        "devenv.nix",
+        "devenv.yaml",
+        ".envrc",
         "src",
         "README.md",
         "JOURNEY.md",

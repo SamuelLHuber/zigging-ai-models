@@ -42,6 +42,17 @@ zig build test
 zig build run
 ```
 
+### Clean/reproducible dev environment
+
+If you want to keep your local system clean, use the included [devenv](https://github.com/cachix/devenv) setup instead of installing tools globally:
+
+```bash
+devenv shell
+zig build test
+```
+
+The dev shell provides Zig, Jujutsu, Git, and the GitHub CLI. You can also use the devenv setup as the basis for a Docker image if you prefer containerized development.
+
 If starting a fresh copy without version control, initialize with:
 
 ```bash
