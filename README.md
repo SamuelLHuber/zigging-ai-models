@@ -57,7 +57,7 @@ Use references to check understanding, not to skip the work.
 
 - [Karpathy: Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) — excellent Python/PyTorch learning companion for GPT concepts.
 - [karpathy/llama2.c](https://github.com/karpathy/llama2.c) — simple practical Llama-style inference in C.
-- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) — compact GPT training reference.
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) — compact GPT reference: roughly ~300 lines for the training code and another ~300 lines for the model definition, making it excellent for reading end-to-end.
 - [karpathy/nanochat](https://github.com/karpathy/nanochat) — later-stage end-to-end chat/model pipeline reference.
 - [CogitatorTech/zigformer](https://github.com/CogitatorTech/zigformer) — Zig-native transformer reference.
 - [zml/zml](https://github.com/zml/zml/) — high-performance, production-oriented AI/ML infrastructure in Zig. Read its getting started docs and code when you want to see how serious Zig AI systems structure models, compilation, buffers, and accelerator execution.
