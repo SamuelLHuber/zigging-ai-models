@@ -63,8 +63,18 @@ Use references to check understanding, not to skip the work.
 - [zml/zml](https://github.com/zml/zml/) — high-performance, production-oriented AI/ML infrastructure in Zig. Read its getting started docs and code when you want to see how serious Zig AI systems structure models, compilation, buffers, and accelerator execution.
 - [ZML first model tutorial](https://github.com/zml/zml/blob/master/docs/tutorials/write_first_model.md) — Zig-native compiled tensor/model execution after raw primitives are understood.
 
+## Included dataset
+
+This repo includes Karpathy's Tiny Shakespeare text dataset:
+
+```text
+datasets/tinyshakespeare.txt
+```
+
+Use it for the early bigram, MLP, and tiny transformer language-model training tasks once your code works on very small hand-written strings.
+
 ## First milestone
 
-Train a tiny character-level bigram model that overfits a small text file and generates recognizable text.
+Train a tiny character-level bigram model that first overfits a tiny hand-written string, then trains on `datasets/tinyshakespeare.txt` and generates recognizable text.
 
 That is the first real “I trained my own model” moment.

@@ -775,7 +775,13 @@ Implement AdamW after SGD works.
 
 **Task**
 
-Train a very small character/byte-level transformer:
+Train a very small character/byte-level transformer. This repo includes text data you can use after tiny hand-written strings work:
+
+```text
+datasets/tinyshakespeare.txt
+```
+
+Suggested first transformer scale:
 
 ```text
 vocab_size: <= 256

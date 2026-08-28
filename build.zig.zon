@@ -76,6 +76,7 @@
         "src",
         "README.md",
         "JOURNEY.md",
+        "datasets",
         ".agents",
     },
 }
