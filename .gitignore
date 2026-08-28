@@ -1,0 +1,7 @@
+# Zig build outputs
+.zig-cache/
+zig-out/
+
+# Editor/OS noise
+.DS_Store
+*.swp
