@@ -60,6 +60,7 @@ Use references to check understanding, not to skip the work.
 - [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) — compact GPT training reference.
 - [karpathy/nanochat](https://github.com/karpathy/nanochat) — later-stage end-to-end chat/model pipeline reference.
 - [CogitatorTech/zigformer](https://github.com/CogitatorTech/zigformer) — Zig-native transformer reference.
+- [zml/zml](https://github.com/zml/zml/) — high-performance, production-oriented AI/ML infrastructure in Zig. Read its getting started docs and code when you want to see how serious Zig AI systems structure models, compilation, buffers, and accelerator execution.
 - [ZML first model tutorial](https://github.com/zml/zml/blob/master/docs/tutorials/write_first_model.md) — Zig-native compiled tensor/model execution after raw primitives are understood.
 
 ## First milestone
