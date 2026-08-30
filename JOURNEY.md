@@ -9,6 +9,7 @@ This is a learning journey, not a code-generation checklist. The student should 
 For each task:
 
 - Read the objective.
+- First understand the short motivation: why this matters, where it appears later, and what intuition to carry.
 - Implement the smallest possible version.
 - Write at least one tiny test with hand-checkable numbers.
 - Explain the shapes and math in your own words.

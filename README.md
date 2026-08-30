@@ -22,7 +22,7 @@ The point is not to get a polished model quickly. The point is to understand eve
 
 ## Learning style
 
-Early on, the student should type the core implementations manually. An assistant can give hints, tests, shape checks, and review, but should not simply paste full solutions for foundational tasks.
+Early on, the student should type the core implementations manually. An assistant should first give concise motivation and background for why a task matters, then provide hints, tests, shape checks, and review, but should not simply paste full solutions for foundational tasks.
 
 We avoid PyTorch initially because we do not want a large dependency stack in the critical path, we want to reduce security exposure from Python packages and package registries, and we want full control over memory, execution, shapes, and model internals. PyTorch and other frameworks may be used later as conceptual references, but not as the first implementation path.
 
