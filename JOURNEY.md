@@ -92,19 +92,22 @@ Do not create empty abstractions too far ahead. Add each file when a task needs 
 - The project still builds after each new file.
 - Each new file has at least one test or is used by a tested module.
 
-## 0.2 Establish learning rules
+## 0.2 Understand the established learning rules
 
 **Task**
 
-Write a short note in the project README or local journey file answering:
+Read these rules. They are part of the curriculum, not something to renegotiate before starting:
 
-1. Why am I avoiding PyTorch initially?
-2. What parts do I want to understand deeply?
-3. What am I allowed to use as a reference?
+1. We avoid PyTorch in the implementation path so the learner must understand the math, memory layout, training loop, and inference mechanics directly.
+2. “No PyTorch” does not mean “no references.” References are allowed for understanding, checking, and comparison, but not for skipping the manual early work.
+3. Early core code is typed manually by the learner: indexing, matmul, softmax, cross entropy, SGD, attention, and backward-pass pieces.
+4. References such as nanoGPT, llama2.c, nanochat, zigformer, ZML docs/code, and Karpathy videos are pointers for study. They are not copy-paste substitutes.
+5. Assistants should provide hints, questions, tests, review, and small skeletons first. Full solutions are reserved for comparison after a real attempt or for later non-core integration work.
 
 **Success criteria**
 
 - You can explain the difference between “no PyTorch” and “no libraries at all”.
+- You can explain how references are allowed without becoming a shortcut.
 - You accept that early code may be slow and ugly if it teaches the math.
 
 ---
