@@ -100,14 +100,16 @@ Read these rules. They are part of the curriculum, not something to renegotiate 
 
 1. We avoid PyTorch in the implementation path so the learner must understand the math, memory layout, training loop, and inference mechanics directly.
 2. “No PyTorch” does not mean “no references.” References are allowed for understanding, checking, and comparison, but not for skipping the manual early work.
-3. Early core code is typed manually by the learner: indexing, matmul, softmax, cross entropy, SGD, attention, and backward-pass pieces.
-4. References such as nanoGPT, llama2.c, nanochat, zigformer, ZML docs/code, and Karpathy videos are pointers for study. They are not copy-paste substitutes.
-5. Assistants should provide hints, questions, tests, review, and small skeletons first. Full solutions are reserved for comparison after a real attempt or for later non-core integration work.
+3. Allowed early references: Zig docs, Zig stdlib docs, compiler errors, this curriculum, small hand-written math notes, and conceptual explanations.
+4. Allowed later references: Karpathy/nanoGPT, llama2.c, nanochat, zigformer, and ZML docs/code after we have implemented the relevant primitive ourselves.
+5. Cheating early: copying full implementations of matmul, softmax, cross entropy, training loops, or attention before attempting them.
+6. Early core code is typed manually by the learner: indexing, matmul, softmax, cross entropy, SGD, attention, and backward-pass pieces.
+7. Assistants should provide hints, questions, tests, review, and small skeletons first. Full solutions are reserved for comparison after a real attempt or for later non-core integration work.
 
 **Success criteria**
 
 - You can explain the difference between “no PyTorch” and “no libraries at all”.
-- You can explain how references are allowed without becoming a shortcut.
+- You can name which references are allowed early, which are allowed later, and what counts as cheating early.
 - You accept that early code may be slow and ugly if it teaches the math.
 
 ---

@@ -24,6 +24,10 @@ The point is not to get a polished model quickly. The point is to understand eve
 
 Early on, the student should type the core implementations manually. An assistant can give hints, tests, shape checks, and review, but should not simply paste full solutions for foundational tasks.
 
+We avoid PyTorch initially because we do not want a large dependency stack in the critical path, we want to reduce security exposure from Python packages and package registries, and we want full control over memory, execution, shapes, and model internals. PyTorch and other frameworks may be used later as conceptual references, but not as the first implementation path.
+
+Allowed references: Zig docs, Zig standard library docs, compiler errors, this curriculum, small hand-written math notes, and conceptual explanations. Later, after implementing the relevant primitive ourselves, we may compare against references such as Karpathy's `nanoGPT`, `llama2.c`, or ZML docs. Early cheating means copying full implementations of core primitives such as matmul, softmax, cross entropy, training loops, or attention before attempting them.
+
 We optimize for:
 
 - learning by doing
